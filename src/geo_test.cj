@@ -1,4 +1,4 @@
-package mapsdk
+package CjKu::mapsdk
 
 import std.math.*
 import std.time.*

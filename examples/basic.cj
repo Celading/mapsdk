@@ -1,5 +1,5 @@
 package consumer
-import mapsdk.*
+import CjKu::mapsdk.*
 main(): Int64 {
     let distance = haversineKm(31.0, 121.0, 31.1, 121.1)
     println(distance)

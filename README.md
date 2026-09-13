@@ -14,15 +14,22 @@
 
 <p align="center">
  <a href="https://github.com/Celading/mapsdk">开源主仓</a> ·
- <a href="manual/docs/build.md">接入指南</a>
+ <a href="https://github.com/Celading/mapsdk/blob/publication/cjku-0.2.0/manual/docs/build.md">接入指南</a>
 </p>
 
 > 当前文档对应版本：`0.2.0` · Cangjie `1.1.3`
 
 ## 快速开始
 
+```toml
+[dependencies]
+"CjKu::mapsdk" = "0.2.0"
+```
+
+也可构建本组织分支源码：
+
 ```sh
-git clone https://github.com/Celading/mapsdk.git
+git clone --branch publication/cjku-0.2.0 https://github.com/Celading/mapsdk.git
 cd mapsdk
 cjpm build
 cjpm test
@@ -30,7 +37,7 @@ cjpm test
 
 ```cangjie
 package consumer
-import mapsdk.*
+import CjKu::mapsdk.*
 main(): Int64 {
     let distance = haversineKm(31.0, 121.0, 31.1, 121.1)
     println(distance)
@@ -39,7 +46,7 @@ main(): Int64 {
 }
 ```
 
-[接入与打包](manual/docs/build.md) · [API](manual/docs/api.md) · [边界](manual/docs/limits.md) · [使用工作流](manual/skill/SKILL.md)
+[接入与打包](https://github.com/Celading/mapsdk/blob/publication/cjku-0.2.0/manual/docs/build.md) · [API](https://github.com/Celading/mapsdk/blob/publication/cjku-0.2.0/manual/docs/api.md) · [边界](https://github.com/Celading/mapsdk/blob/publication/cjku-0.2.0/manual/docs/limits.md) · [使用工作流](https://github.com/Celading/mapsdk/blob/publication/cjku-0.2.0/manual/skill/SKILL.md)
 
 ## 能力边界
 
@@ -47,4 +54,4 @@ main(): Int64 {
 
 ## License
 
-见 [LICENSE](LICENSE) 与 [NOTICE](NOTICE)。当前为源码发行，未声明中心仓上架或全平台认证。
+见 [LICENSE](https://github.com/Celading/mapsdk/blob/publication/cjku-0.2.0/LICENSE) 与 [NOTICE](https://github.com/Celading/mapsdk/blob/publication/cjku-0.2.0/NOTICE)。本分支用于 CjKu 组织发行；不声明全平台认证。

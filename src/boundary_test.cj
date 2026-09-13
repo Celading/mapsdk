@@ -1,4 +1,4 @@
-package mapsdk
+package CjKu::mapsdk
 import std.unittest.*
 import std.unittest.testmacro.*
 func rejectsGeo(f: () -> Unit): Bool {

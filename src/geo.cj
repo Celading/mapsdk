@@ -1,4 +1,4 @@
-package mapsdk
+package CjKu::mapsdk
 
 import std.collection.ArrayList
 import std.collection.HashMap
