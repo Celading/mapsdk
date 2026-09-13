@@ -1,0 +1,12 @@
+mapsdk — NOTICE
+Copyright 2026 Cinyu <Celading@qq.com>
+
+This is an independent implementation for the Cangjie language. It is not
+affiliated with, endorsed by, or certified by any standards body, upstream
+project or vendor named below. No upstream source code is included unless
+explicitly stated.
+
+- RFC 7946 (GeoJSON), the slippy-map tile convention, and the public-domain
+  geohash algorithm — format reference only.
+
+Trademarks are the property of their respective owners.
